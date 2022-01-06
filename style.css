@@ -2,3 +2,16 @@
 .navbar-nav {
     margin-left: auto;
 }
+
+/* Title Styles  */
+#title {
+    background-color: #9A0680;
+}
+
+.app-img img {
+    width: 350px;
+    border-radius: 50px;
+}
+
+/* Font Styles */
+font-family: 'Montserrat', sans-serif;
