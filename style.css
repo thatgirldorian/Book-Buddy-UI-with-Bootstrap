@@ -58,19 +58,18 @@
 
 /* More App Info Styles */
 .more-info {
-    padding: 70px 0 70px 0;
+    padding: 7% 15%;
 }
 
 .fas {
-    margin-left: 50%;
-    padding: 10px 0 10px 0;
-    color: #9A0680;
+    margin-left: 48%;
+    padding: 15px 0 15px 0;
+    color:  #FFD39A;
 }
 
 .fas:hover {
     color: #781C68;
 }
-
 
 .col-lg-4 h5 {
     font-family: 'Montserrat-BOLD', sans-serif;
@@ -81,4 +80,15 @@
     font-size: 1rem;
     color: #8f8f8f;
     text-align: center;
+}
+
+/* Press Styles */
+#press {
+    background-color: #FFD39A;
+}
+
+/* Carousel Styles */
+.carousel {
+    width: 800px;
+    height: 350px;
 }
