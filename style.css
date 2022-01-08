@@ -1,6 +1,6 @@
 /* Container Styles */
 .container-fluid {
-    padding: 3% 15% 3% 15%;
+    padding: 3% 15% 7% 15%;
 }
 
 /* Nav Bar Styles */
@@ -15,16 +15,14 @@
 
 /* Title Styles  */
 #title {
-    background-color: #ff4c68;
+    background-color: #398b97;
 }
 
-.app-img img {
-    width: 60%;
+.app-img {
+    width: 48%;
     border-radius: 30px;
-    margin-left: 150px;
-    transform: rotate(25deg);
-    position: relative;
-    z-index: -10;
+    position: absolute;
+    right: 120px;
 }
 
 /* Font Styles  */
@@ -36,7 +34,8 @@
 }
 
 .nav-item a {
-    font-family: 'Montserrat-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .navbar-brand {
@@ -62,16 +61,17 @@
 .more-info {
     padding: 7% 15%;
     background-color: #ffffff;
+    position: relative;
 }
 
 .fas {
     margin-left: 48%;
     padding: 15px 0 15px 0;
-    color:  #ef8172;
+    color:  #f9bc60;
 }
 
 .fas:hover {
-    color: #ff4c68;
+    color: #6ba8b1;
 }
 
 .col-lg-4 h5 {
@@ -88,7 +88,7 @@ p, .list-unstyled li {
 /* Testimonial Styles */
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
+    background-color: #398b97;
     color: #ffffff;
 }
 
@@ -110,7 +110,8 @@ h2 {
 
 /* Press Styles */
 #press {
-    background-color: #ef8172;
+    background-color: #f7f7f7;
+    padding-top: 60px;
     padding-bottom: 40px;
     text-align: center;
 }
@@ -127,23 +128,23 @@ h2 {
 }
 
 .btn1 {
-    border: 1px solid #ef8172;
+    border: 1px solid #398b97;
     color: black;
 }
 
 .btn1:hover {
-    background-color: #ff4c68;
-    border: 1px solid #ef8172;
+    background-color: #6ba8b1;
+    border: 1px solid #6ba8b1;
 }
 
 .btn2, .btn3 {
-    background-color: #ef8172;
-    border: 1px solid #ef8172;
+    background-color: #398b97;
+    border: 1px solid #398b97;
 }
 
 .btn2:hover, .btn3:hover {
-    background-color: #ff4c68;
-    border: 1px solid #ef8172;
+    background-color: #6ba8b1;
+    border: 1px solid #6ba8b1;
 }
 
 .fw-normal {
@@ -152,4 +153,28 @@ h2 {
 
 .col {
     padding: 3% 2%;
+}
+
+/* CTA Styles */
+
+.col-lg-12 .btn {
+    margin-right: 10px;
+}
+
+#cta {
+    background-color: #398b97;
+    text-align: center;
+}
+
+#cta h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+/* Footer Styles  */
+footer li {
+    margin-right: 20px;
 }
