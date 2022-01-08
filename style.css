@@ -192,6 +192,11 @@ footer li {
     #title {
         text-align: center;
     }
+
+    .col-lg-12 .btn {
+        margin-bottom: 20px;
+    }
+
 }
 
     
