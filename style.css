@@ -178,3 +178,19 @@ h2 {
 footer li {
     margin-right: 20px;
 }
+
+/* Mobile and Smaller Viewport Styles */
+
+@media (max-width: 1025px) {
+    .app-img {
+        position: static;
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+    
+
