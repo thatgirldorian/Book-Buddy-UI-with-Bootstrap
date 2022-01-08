@@ -15,7 +15,7 @@
 
 /* Title Styles  */
 #title {
-    background-color: #9A0680;
+    background-color: #ff4c68;
 }
 
 .app-img img {
@@ -23,6 +23,8 @@
     border-radius: 30px;
     margin-left: 150px;
     transform: rotate(25deg);
+    position: relative;
+    z-index: -10;
 }
 
 /* Font Styles  */
@@ -59,36 +61,95 @@
 /* More App Info Styles */
 .more-info {
     padding: 7% 15%;
+    background-color: #ffffff;
 }
 
 .fas {
     margin-left: 48%;
     padding: 15px 0 15px 0;
-    color:  #FFD39A;
+    color:  #ef8172;
 }
 
 .fas:hover {
-    color: #781C68;
+    color: #ff4c68;
 }
 
 .col-lg-4 h5 {
-    font-family: 'Montserrat-BOLD', sans-serif;
+    font-family: 'Montserrat-Bold', sans-serif;
     text-align: center;
 }
 
-.col-lg-4 p {
+p, .list-unstyled li {
     font-size: 1rem;
     color: #8f8f8f;
     text-align: center;
 }
 
-/* Press Styles */
-#press {
-    background-color: #FFD39A;
+/* Testimonial Styles */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
 }
 
-/* Carousel Styles */
-.carousel {
-    width: 800px;
-    height: 350px;
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Styles */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px 50px;
+}
+
+/* Pricing Styles */
+#pricing {
+    padding: 7% 15%;
+    text-align: center
+}
+
+.btn1 {
+    border: 1px solid #ef8172;
+    color: black;
+}
+
+.btn1:hover {
+    background-color: #ff4c68;
+    border: 1px solid #ef8172;
+}
+
+.btn2, .btn3 {
+    background-color: #ef8172;
+    border: 1px solid #ef8172;
+}
+
+.btn2:hover, .btn3:hover {
+    background-color: #ff4c68;
+    border: 1px solid #ef8172;
+}
+
+.fw-normal {
+    font-family: 'Montserrat-Bold';
+}
+
+.col {
+    padding: 3% 2%;
 }
