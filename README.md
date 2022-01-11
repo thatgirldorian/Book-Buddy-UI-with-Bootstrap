@@ -9,7 +9,7 @@ I really enjoyed making this and I like how the color scheme turned out.
 
 - HTML
 - CSS
-- Bootstrap
+- Bootstrap 5
 - GitHub
 - Netlify
 
